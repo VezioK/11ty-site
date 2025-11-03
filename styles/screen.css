@@ -1,50 +1,115 @@
+/* ===============================
+   Global Styles
+   =============================== */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
-    padding: 0 40px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "Segoe Script", cursive;
+  color: #5F5449;            
+  background: #EBFCFB;       
+  text-align: center;
 }
 
-nav {
-    margin: 40px auto 0 auto;
-    width: 250px;
-    border-radius: 50px;
-    background: #212431;
+header {
+  background: #5F5449;       
+  color: #EBFCFB;          
+  width: 100%;
+  margin: 0;
+  padding: 30px 0;
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
+header > nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0 12px;
 }
 
-nav ul li {
-    list-style-type: none;
-    margin: 0;
+header > nav a {
+  color: #EBFCFB;           
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+
 }
 
-nav ul li a {
-    display: inline-block;
-    padding: 20px;
-    color: #EAE8FF;
-    text-decoration: none;
-    font-size: 1.2em;
+header > nav a:hover {
+  color: #CEDFD9;            
+  opacity: 0.9;
 }
 
-h1 {
-    font-size: 8em;
-    letter-spacing: -2px;
+main {
+  flex: 1;
+  padding: 24px 0;
 }
 
-h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+h2 {
+  color: #5F5449;         
+  margin: 12px 0 8px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
-img.about {
-    opacity: 0.5;
+p {
+  margin: 10px 0;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  margin: 28px 0 36px;
+}
+
+.card {
+  display: block;
+  width: 300px;
+  background: #B09398;      
+  border: 1px solid rgba(95, 84, 73, 0.25);
+  border-radius: 12px;
+  padding: 12px;
+  text-decoration: none;
+  color: #5F5449;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  background: #CEDFD9;        
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+a {
+  color: #9B6A6C;             
+}
+
+a:hover {
+  color: #7d5557;            
+}
+
+
+footer {
+  margin-top: auto;
+  background: #5F5449;        
+  color: #EBFCFB;             
+  padding: 20px 0;
+  font-size: 16px;
 }

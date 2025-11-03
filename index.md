@@ -10,8 +10,8 @@ title: Home
     {% pic "/images/phone.jpg", "My phone" %}
   </a>
 
-  <a class="card" href="/keys/">
-    {% pic "/images/keys.jpg", "My keys" %}
+  <a class="card" href="/airpods/">
+    {% pic "/images/airpods.jpg", "My AirPods" %}
   </a>
 
   <a class="card" href="/wallet/">
@@ -19,4 +19,4 @@ title: Home
   </a>
 </div>
 
-<p>Click a picture to learn why I always carry it.</p>
+<p><em>Click a picture to learn why I always carry it.</em></p>
