@@ -3,7 +3,7 @@ layout: layout.liquid
 title: Home
 ---
 
-<h2>Things I never leave home without</h2>
+<h2>My Everyday Carry</h2>
 
 <div class="cards">
   <a class="card" href="/phone/">
